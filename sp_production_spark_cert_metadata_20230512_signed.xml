@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_075f9f56-9dfe-40ba-ac92-eb000fbcb906" entityID="https://on-banking.sparkasse.it/spid/metadata"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_075f9f56-9dfe-40ba-ac92-eb000fbcb906">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>IfzpKkaFQ1eKUfNaXp7w3tId5MuZHwtJZm/F7aBPbRM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+pnsph9OHJ8I/UL0LppXYP1MLc46vhkbnNBgfmDz2EQuEiEKuXyrCKEQpdAk6zcrnIOvDAzCZ349R
+GqUAlUaEvCAVqTgnNEVxducQIaibssDoBoXeZCrBCRAgU8fNrGGmC98uke9x/5b+RLJZ384eNY8m
+g1aZymO4SWL9gDLw6AERpCp5E49uZIzPmwbUaFixQZZ4GMzKJ4nEsqg1VzeS78YBclT4ES0MfL4y
+dVweOUxdfLMhYyebVhxGrNPWwOksdGhV5SM6ivl6SzDP9EUjiCd9IhbijGVqXNJmnnZxxnm1gCF9
+oH+m8JmkTAKOqLYjgQCV3yQUCCIi+D4CGczNdbHtMzOxZdqV+XozACt34lGjuouQOCZ2U9OxmKrk
+rZzv5CK0m+8Src1xZg8pKk3ZOanCjaj50lRCb+IkuVSGm5kKsRrIAckZT6lagfHe7fSNmraHROj8
+pDJT8anqomIWZXcvUh4h/N0+5EtY7+ZrknJnPmCGfLVd3/1oStn114vU
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+02Oe8ukh9dqZKTpE5oHzbfsGy0hA+GROw+znloyiZ+2ABm/VNY9aHf4BD7iKrgYWl9JljL55IwaS
+SOOrfrSjXWLq56PY86+pXoh35lrL0kyE03DvqCPUDsGq0kpV1UySAM3Svm1UUi+fLnmlttbOQfsw
+sz1fJtGPgInKhL++5dTZ4+qyBkO6gCj5HvDmW60jfyfuQZGFijqhL/QJhV50ElJJEI+pQDE+QEYE
+RzGvocJLjGaF7TJl7lDNwWHJy9D9ShS4e1AeFpzXeEAKDREFVBDEoJ8sZIgz5js4091CKWyKCdq+
+Bl5M78VXr+s4Q6mXNGx0FxR5CalMIzmJrliQ/U0d73g2AExAJ9ImM+YR9lx/9IJ+/8URltXFK9Nn
+a0n+gTaoEVrzOrS+3e+WE9Wkf5XqRGmoMVJGzSi0gxXzy50AgpIWu3tXgvSLp4q4Oqh0DVZ2oUzO
+w5cmYpOTObv2RBDKntcRM2KwZvGMBoCVsnhr9ggPg7zbo+1b/kvc9qkx
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIInzCCBoegAwIBAgIISnJLZ5opyMAwDQYJKoZIhvcNAQENBQAwgegxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEwMC4G
+A1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBwcm9nZXR0byBTUElEMSkwJwYDVQQDDCBQ
+cm9nZXR0byBTUElEIC0gU29nZ2V0dGkgcHJpdmF0aTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xs
+b0BwZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIyMDQwNjAw
+MDAwMFoXDTM3MDQwNTIzNTk1OVowgcsxKjAoBgNVBAoMIUNhc3NhIGRpIFJpc3Bhcm1pbyBkaSBC
+b2x6YW5vIFNwQTEqMCgGA1UEAwwhQ2Fzc2EgZGkgUmlzcGFybWlvIGRpIEJvbHphbm8gU3BBMTYw
+NAYDVQRTDC1odHRwczovL29uLWJhbmtpbmcuc3Bhcmthc3NlLml0L3NwaWQvbWV0YWRhdGExGjAY
+BgNVBGEMEVZBVElULTAwMTUyOTgwMjE1MQswCQYDVQQGEwJJVDEQMA4GA1UEBwwHQm9semFubzCC
+AaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBANNjnvLpIfXamSk6ROaB8237BstIQPhkTsPs
+55aMomftgAZv1TWPWh3+AQ+4iq4GFpfSZYy+eSMGkkjjq360o11i6uej2POvqV6Id+Zay9JMhNNw
+76gj1A7BqtJKVdVMkgDN0r5tVFIvny55pbbWzkH7MLM9XybRj4CJyoS/vuXU2ePqsgZDuoAo+R7w
+5lutI38n7kGRhYo6oS/0CYVedBJSSRCPqUAxPkBGBEcxr6HCS4xmhe0yZe5QzcFhycvQ/UoUuHtQ
+Hhac13hACg0RBVQQxKCfLGSIM+Y7ONPdQilsignavgZeTO/FV6/rOEOplzRsdBcUeQmpTCM5ia5Y
+kP1NHe94NgBMQCfSJjPmEfZcf/SCfv/FEZbVxSvTZ2tJ/oE2qBFa8zq0vt3vlhPVpH+V6kRpqDFS
+Rs0otIMV88udAIKSFrt7V4L0i6eKuDqodA1WdqFMzsOXJmKTkzm79kQQyp7XETNisGbxjAaAlbJ4
+a/YID4O826PtW/5L3PapMQIDAQABo4IC5jCCAuIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUcUdE
+NhyQTlx3tKlvwCGAdIW4cHgwHwYDVR0jBBgwFoAUnEUwxE0PoPomD6nW/CDWB2zOZFYwDgYDVR0P
+AQH/BAQDAgbAMBYGA1UdEgQPMA2CC3NwaWQuZ292Lml0MEMGA1UdHwQ8MDowOKA2oDSGMmh0dHBz
+Oi8vZWlkYXMuYWdpZC5nb3YuaXQvY3JsL2NybF9TUElEX3ByaXZfU0EuY3JsMDcGCCsGAQUFBwEB
+BCswKTAnBggrBgEFBQcwAYYbaHR0cHM6Ly9vY3NwX1NBLmFnaWQuZ292Lml0MIIB1wYDVR0gBIIB
+zjCCAcowCQYHBACORgEGAjCBlQYEK0wQBjCBjDBEBggrBgEFBQcCAjA4GjZFbGVjdHJvbmljIGNl
+cnRpZmljYXRlIGNvbmZvcm1pbmcgd2l0aCBBR0lEIEd1aWRlbGluZXMwRAYIKwYBBQUHAgIwOBo2
+Q2VydGlmaWNhdG8gZWxldHRyb25pY28gY29uZm9ybWUgYWxsZSBMaW5lZSBndWlkYSBBZ0lEMHsG
+BitMEAQDATBxMDUGCCsGAQUFBwICMCkaJ1NQSUQ6IGZvcm5pdG9yZSBkaSBzZXJ2aXppIChTUCkg
+cHJpdmF0bzA4BggrBgEFBQcCAjAsGipTUElEOiBwcml2YXRlLXNlY3RvciBTZXJ2aWNlIFByb3Zp
+ZGVyIChTUCkwCAYGBACPegEDME0GBCtMEAQwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5h
+Z2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjBPBgYEAI5GAQUwRTBDBggr
+BgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0Ff
+Y3BzLnBkZjARBglghkgBhvhCAQEEBAMCAAcwDQYJKoZIhvcNAQENBQADggIBADduRWp7U19/E9OS
+HzfS9SjFpzvMcH6Y1gXkHIjV6vy04GhyhdscCwzUyMUVoTD5gLc+Cm7CQWuH0pqF7ZXGgdmnlY1g
+hy9bBI7FUXLXKr+otuyvZh+8u9xADxpKX6PsOCfmbvEPViUhve6bGRqTtKIGqn+RSpCD+rzzGS+u
+oBTDtiKpQyPp3ytJjkV6I+QsFbjCySre1fcaO1ehUmJIDgTbEJ7+3f1e8mbxtPinay9brni46l4c
+shMTnPTNerjFDLML8rUSHsUSss2PjPjZCVkGfRt3SGjPZpRHOsNhzfLLEW8urTJukDVcUFAKuB2T
+FBzuwMCgjHjj2SaIoKxbCnkOY3TnNUb1UYB4r3z7RZNzTClNxlxE6dqBCG8RDv47du1DrQpvphgO
+NFT8lBt9zU1rz9hEEexsPYRJcNL8LDKgpu5I0pTPHfuwwd7USTQezkZv3x340M2ZnN3QstgzFpb8
+fjplatgcXyODtXrLdTdjXHkZhiVrKXIm/c6K0ZQaDuCSkVJH25ehJ/eUgd4Y2Q/qRDtplWrfDcvD
+sxRRDy7k63ZDAb+ATcHP9nxcJ4EcS4iSiLAiIJZNkY65Mgg6W6/VThFCnugQlYaZS3w6DjqGBhgf
+t6BO2kWXKqmeGlAIARClaACkNQEimnNdgI19bklALukLjfHySlxIStjk+sCF
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+	<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate> MIIInzCCBoegAwIBAgIISnJLZ5opyMAwDQYJKoZIhvcNAQENBQAwgegxCzAJBgNV BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0 YWxpYSBEaWdpdGFsZTEwMC4GA1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g ZSBwcm9nZXR0byBTUElEMSkwJwYDVQQDDCBQcm9nZXR0byBTUElEIC0gU29nZ2V0 dGkgcHJpdmF0aTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5n b3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIyMDQwNjAwMDAw MFoXDTM3MDQwNTIzNTk1OVowgcsxKjAoBgNVBAoMIUNhc3NhIGRpIFJpc3Bhcm1p byBkaSBCb2x6YW5vIFNwQTEqMCgGA1UEAwwhQ2Fzc2EgZGkgUmlzcGFybWlvIGRp IEJvbHphbm8gU3BBMTYwNAYDVQRTDC1odHRwczovL29uLWJhbmtpbmcuc3Bhcmth c3NlLml0L3NwaWQvbWV0YWRhdGExGjAYBgNVBGEMEVZBVElULTAwMTUyOTgwMjE1 MQswCQYDVQQGEwJJVDEQMA4GA1UEBwwHQm9semFubzCCAaIwDQYJKoZIhvcNAQEB BQADggGPADCCAYoCggGBANNjnvLpIfXamSk6ROaB8237BstIQPhkTsPs55aMomft gAZv1TWPWh3+AQ+4iq4GFpfSZYy+eSMGkkjjq360o11i6uej2POvqV6Id+Zay9JM hNNw76gj1A7BqtJKVdVMkgDN0r5tVFIvny55pbbWzkH7MLM9XybRj4CJyoS/vuXU 2ePqsgZDuoAo+R7w5lutI38n7kGRhYo6oS/0CYVedBJSSRCPqUAxPkBGBEcxr6HC S4xmhe0yZe5QzcFhycvQ/UoUuHtQHhac13hACg0RBVQQxKCfLGSIM+Y7ONPdQils ignavgZeTO/FV6/rOEOplzRsdBcUeQmpTCM5ia5YkP1NHe94NgBMQCfSJjPmEfZc f/SCfv/FEZbVxSvTZ2tJ/oE2qBFa8zq0vt3vlhPVpH+V6kRpqDFSRs0otIMV88ud AIKSFrt7V4L0i6eKuDqodA1WdqFMzsOXJmKTkzm79kQQyp7XETNisGbxjAaAlbJ4 a/YID4O826PtW/5L3PapMQIDAQABo4IC5jCCAuIwDAYDVR0TAQH/BAIwADAdBgNV HQ4EFgQUcUdENhyQTlx3tKlvwCGAdIW4cHgwHwYDVR0jBBgwFoAUnEUwxE0PoPom D6nW/CDWB2zOZFYwDgYDVR0PAQH/BAQDAgbAMBYGA1UdEgQPMA2CC3NwaWQuZ292 Lml0MEMGA1UdHwQ8MDowOKA2oDSGMmh0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQv Y3JsL2NybF9TUElEX3ByaXZfU0EuY3JsMDcGCCsGAQUFBwEBBCswKTAnBggrBgEF BQcwAYYbaHR0cHM6Ly9vY3NwX1NBLmFnaWQuZ292Lml0MIIB1wYDVR0gBIIBzjCC AcowCQYHBACORgEGAjCBlQYEK0wQBjCBjDBEBggrBgEFBQcCAjA4GjZFbGVjdHJv bmljIGNlcnRpZmljYXRlIGNvbmZvcm1pbmcgd2l0aCBBR0lEIEd1aWRlbGluZXMw RAYIKwYBBQUHAgIwOBo2Q2VydGlmaWNhdG8gZWxldHRyb25pY28gY29uZm9ybWUg YWxsZSBMaW5lZSBndWlkYSBBZ0lEMHsGBitMEAQDATBxMDUGCCsGAQUFBwICMCka J1NQSUQ6IGZvcm5pdG9yZSBkaSBzZXJ2aXppIChTUCkgcHJpdmF0bzA4BggrBgEF BQcCAjAsGipTUElEOiBwcml2YXRlLXNlY3RvciBTZXJ2aWNlIFByb3ZpZGVyIChT UCkwCAYGBACPegEDME0GBCtMEAQwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRh cy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjBPBgYE AI5GAQUwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9j cHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjARBglghkgBhvhCAQEEBAMCAAcw DQYJKoZIhvcNAQENBQADggIBADduRWp7U19/E9OSHzfS9SjFpzvMcH6Y1gXkHIjV 6vy04GhyhdscCwzUyMUVoTD5gLc+Cm7CQWuH0pqF7ZXGgdmnlY1ghy9bBI7FUXLX Kr+otuyvZh+8u9xADxpKX6PsOCfmbvEPViUhve6bGRqTtKIGqn+RSpCD+rzzGS+u oBTDtiKpQyPp3ytJjkV6I+QsFbjCySre1fcaO1ehUmJIDgTbEJ7+3f1e8mbxtPin ay9brni46l4cshMTnPTNerjFDLML8rUSHsUSss2PjPjZCVkGfRt3SGjPZpRHOsNh zfLLEW8urTJukDVcUFAKuB2TFBzuwMCgjHjj2SaIoKxbCnkOY3TnNUb1UYB4r3z7 RZNzTClNxlxE6dqBCG8RDv47du1DrQpvphgONFT8lBt9zU1rz9hEEexsPYRJcNL8 LDKgpu5I0pTPHfuwwd7USTQezkZv3x340M2ZnN3QstgzFpb8fjplatgcXyODtXrL dTdjXHkZhiVrKXIm/c6K0ZQaDuCSkVJH25ehJ/eUgd4Y2Q/qRDtplWrfDcvDsxRR Dy7k63ZDAb+ATcHP9nxcJ4EcS4iSiLAiIJZNkY65Mgg6W6/VThFCnugQlYaZS3w6 DjqGBhgft6BO2kWXKqmeGlAIARClaACkNQEimnNdgI19bklALukLjfHySlxIStjk +sCF </ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:KeyDescriptor use="encryption">
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate> MIIInzCCBoegAwIBAgIISnJLZ5opyMAwDQYJKoZIhvcNAQENBQAwgegxCzAJBgNV BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0 YWxpYSBEaWdpdGFsZTEwMC4GA1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g ZSBwcm9nZXR0byBTUElEMSkwJwYDVQQDDCBQcm9nZXR0byBTUElEIC0gU29nZ2V0 dGkgcHJpdmF0aTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5n b3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIyMDQwNjAwMDAw MFoXDTM3MDQwNTIzNTk1OVowgcsxKjAoBgNVBAoMIUNhc3NhIGRpIFJpc3Bhcm1p byBkaSBCb2x6YW5vIFNwQTEqMCgGA1UEAwwhQ2Fzc2EgZGkgUmlzcGFybWlvIGRp IEJvbHphbm8gU3BBMTYwNAYDVQRTDC1odHRwczovL29uLWJhbmtpbmcuc3Bhcmth c3NlLml0L3NwaWQvbWV0YWRhdGExGjAYBgNVBGEMEVZBVElULTAwMTUyOTgwMjE1 MQswCQYDVQQGEwJJVDEQMA4GA1UEBwwHQm9semFubzCCAaIwDQYJKoZIhvcNAQEB BQADggGPADCCAYoCggGBANNjnvLpIfXamSk6ROaB8237BstIQPhkTsPs55aMomft gAZv1TWPWh3+AQ+4iq4GFpfSZYy+eSMGkkjjq360o11i6uej2POvqV6Id+Zay9JM hNNw76gj1A7BqtJKVdVMkgDN0r5tVFIvny55pbbWzkH7MLM9XybRj4CJyoS/vuXU 2ePqsgZDuoAo+R7w5lutI38n7kGRhYo6oS/0CYVedBJSSRCPqUAxPkBGBEcxr6HC S4xmhe0yZe5QzcFhycvQ/UoUuHtQHhac13hACg0RBVQQxKCfLGSIM+Y7ONPdQils ignavgZeTO/FV6/rOEOplzRsdBcUeQmpTCM5ia5YkP1NHe94NgBMQCfSJjPmEfZc f/SCfv/FEZbVxSvTZ2tJ/oE2qBFa8zq0vt3vlhPVpH+V6kRpqDFSRs0otIMV88ud AIKSFrt7V4L0i6eKuDqodA1WdqFMzsOXJmKTkzm79kQQyp7XETNisGbxjAaAlbJ4 a/YID4O826PtW/5L3PapMQIDAQABo4IC5jCCAuIwDAYDVR0TAQH/BAIwADAdBgNV HQ4EFgQUcUdENhyQTlx3tKlvwCGAdIW4cHgwHwYDVR0jBBgwFoAUnEUwxE0PoPom D6nW/CDWB2zOZFYwDgYDVR0PAQH/BAQDAgbAMBYGA1UdEgQPMA2CC3NwaWQuZ292 Lml0MEMGA1UdHwQ8MDowOKA2oDSGMmh0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQv Y3JsL2NybF9TUElEX3ByaXZfU0EuY3JsMDcGCCsGAQUFBwEBBCswKTAnBggrBgEF BQcwAYYbaHR0cHM6Ly9vY3NwX1NBLmFnaWQuZ292Lml0MIIB1wYDVR0gBIIBzjCC AcowCQYHBACORgEGAjCBlQYEK0wQBjCBjDBEBggrBgEFBQcCAjA4GjZFbGVjdHJv bmljIGNlcnRpZmljYXRlIGNvbmZvcm1pbmcgd2l0aCBBR0lEIEd1aWRlbGluZXMw RAYIKwYBBQUHAgIwOBo2Q2VydGlmaWNhdG8gZWxldHRyb25pY28gY29uZm9ybWUg YWxsZSBMaW5lZSBndWlkYSBBZ0lEMHsGBitMEAQDATBxMDUGCCsGAQUFBwICMCka J1NQSUQ6IGZvcm5pdG9yZSBkaSBzZXJ2aXppIChTUCkgcHJpdmF0bzA4BggrBgEF BQcCAjAsGipTUElEOiBwcml2YXRlLXNlY3RvciBTZXJ2aWNlIFByb3ZpZGVyIChT UCkwCAYGBACPegEDME0GBCtMEAQwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRh cy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjBPBgYE AI5GAQUwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9j cHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjARBglghkgBhvhCAQEEBAMCAAcw DQYJKoZIhvcNAQENBQADggIBADduRWp7U19/E9OSHzfS9SjFpzvMcH6Y1gXkHIjV 6vy04GhyhdscCwzUyMUVoTD5gLc+Cm7CQWuH0pqF7ZXGgdmnlY1ghy9bBI7FUXLX Kr+otuyvZh+8u9xADxpKX6PsOCfmbvEPViUhve6bGRqTtKIGqn+RSpCD+rzzGS+u oBTDtiKpQyPp3ytJjkV6I+QsFbjCySre1fcaO1ehUmJIDgTbEJ7+3f1e8mbxtPin ay9brni46l4cshMTnPTNerjFDLML8rUSHsUSss2PjPjZCVkGfRt3SGjPZpRHOsNh zfLLEW8urTJukDVcUFAKuB2TFBzuwMCgjHjj2SaIoKxbCnkOY3TnNUb1UYB4r3z7 RZNzTClNxlxE6dqBCG8RDv47du1DrQpvphgONFT8lBt9zU1rz9hEEexsPYRJcNL8 LDKgpu5I0pTPHfuwwd7USTQezkZv3x340M2ZnN3QstgzFpb8fjplatgcXyODtXrL dTdjXHkZhiVrKXIm/c6K0ZQaDuCSkVJH25ehJ/eUgd4Y2Q/qRDtplWrfDcvDsxRR Dy7k63ZDAb+ATcHP9nxcJ4EcS4iSiLAiIJZNkY65Mgg6W6/VThFCnugQlYaZS3w6 DjqGBhgft6BO2kWXKqmeGlAIARClaACkNQEimnNdgI19bklALukLjfHySlxIStjk +sCF </ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://on-banking.sparkasse.it/psd2api/pages/SpidPage/logout"/>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://on-banking.sparkasse.it/psd2api/pages/SpidPage/access" index="0" isDefault="true"/>
+		<md:AttributeConsumingService index="0">
+			<md:ServiceName xml:lang="it">Set Attributi 1 - ID Cittadini minimo</md:ServiceName>
+			<md:ServiceDescription xml:lang="it">Set Attributi 1 - ID Cittadini minimo</md:ServiceDescription>
+			<md:RequestedAttribute Name="spidCode"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="gender"/>
+		</md:AttributeConsumingService>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://on-banking.sparkasse.it/psd2api/pages/SpidPage/accessfull" index="1" isDefault="false"/>
+		<md:AttributeConsumingService index="1">
+			<md:ServiceName xml:lang="it">Set Attributi 2 OnboardingApi - ID Cittadini completo</md:ServiceName>
+			<md:ServiceDescription xml:lang="it">Set Attributi 2 OnboardingApi - ID Cittadini completo</md:ServiceDescription>
+			<md:RequestedAttribute Name="spidCode"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="placeOfBirth"/>
+			<md:RequestedAttribute Name="countyOfBirth"/>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="gender"/>
+			<md:RequestedAttribute Name="companyName"/>
+			<md:RequestedAttribute Name="registeredOffice"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="ivaCode"/>
+			<md:RequestedAttribute Name="idCard"/>
+			<md:RequestedAttribute Name="mobilePhone"/>
+			<md:RequestedAttribute Name="email"/>
+			<md:RequestedAttribute Name="domicileStreetAddress"/>
+			<md:RequestedAttribute Name="domicilePostalCode"/>
+			<md:RequestedAttribute Name="domicileMunicipality"/>
+			<md:RequestedAttribute Name="domicileProvince"/>
+			<md:RequestedAttribute Name="address"/>
+			<md:RequestedAttribute Name="domicileNation"/>
+			<md:RequestedAttribute Name="expirationDate"/>
+			<md:RequestedAttribute Name="digitalAddress"/>
+		</md:AttributeConsumingService>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://on-banking.sparkasse.it/identificationapi/Spidpage/access" index="2" isDefault="false"/>
+		<md:AttributeConsumingService index="2">
+			<md:ServiceName xml:lang="it">Set Attributi 1 IdentificationApi - ID Cittadini minimo</md:ServiceName>
+			<md:ServiceDescription xml:lang="it">Set Attributi 1 IdentificationApi - ID Cittadini minimo</md:ServiceDescription>
+			<md:RequestedAttribute Name="spidCode"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="gender"/>
+		</md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Cassa di Risparmio di Bolzano SpA</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Cassa di Risparmio di Bolzano SpA</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">https://sparkasse.it</md:OrganizationURL>
+	</md:Organization>
+	<md:ContactPerson contactType="other">
+		<md:Extensions>
+			<spid:VATNumber>IT00152980215</spid:VATNumber>
+			<spid:FiscalCode>00152980215</spid:FiscalCode>
+			<spid:Private/>
+		</md:Extensions>
+		<md:Company>Cassa di Risparmio di Bolzano SpA</md:Company>
+		<md:EmailAddress>spid@sparkasse.it</md:EmailAddress>
+		<md:TelephoneNumber>+390471231681</md:TelephoneNumber>
+	</md:ContactPerson>
+	<md:ContactPerson contactType="billing">
+		<md:Extensions xmlns:fpa="https://spid.gov.it/invoicing-extensions">
+			<fpa:CessionarioCommittente>
+				<fpa:DatiAnagrafici>
+					<fpa:IdFiscaleIVA>
+						<fpa:IdPaese>IT</fpa:IdPaese>
+						<fpa:IdCodice>00152980215</fpa:IdCodice>
+					</fpa:IdFiscaleIVA>
+					<fpa:Anagrafica>
+						<fpa:Denominazione> Cassa di Risparmio di Bolzano SpA </fpa:Denominazione>
+					</fpa:Anagrafica>
+				</fpa:DatiAnagrafici>
+				<fpa:Sede>
+					<fpa:Indirizzo>Via Cassa di Risparmio</fpa:Indirizzo>
+					<fpa:NumeroCivico>12</fpa:NumeroCivico>
+					<fpa:CAP>39100</fpa:CAP>
+					<fpa:Comune>Bolzano</fpa:Comune>
+					<fpa:Provincia>BZ</fpa:Provincia>
+					<fpa:Nazione>IT</fpa:Nazione>
+				</fpa:Sede>
+			</fpa:CessionarioCommittente>
+		</md:Extensions>
+		<md:Company>Cassa di Risparmio di Bolzano SpA</md:Company>
+		<md:EmailAddress>documenti.sap@sparkasse.it</md:EmailAddress>
+		<md:TelephoneNumber>+390471232614</md:TelephoneNumber>
+	</md:ContactPerson>
+</md:EntityDescriptor>
